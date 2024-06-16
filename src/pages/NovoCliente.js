@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react'
 
 import { Box, Button, Input, Heading, Text, InputGroup, InputRightElement, CircularProgress } from "@chakra-ui/react";
 
-import firebase, { storage } from "../../connection/db";
+import firebase, { storage } from "../../db/db";
 
 import Link from "next/link";
 import Image from "next/image"

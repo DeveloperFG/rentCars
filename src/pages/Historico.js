@@ -3,7 +3,7 @@ import { UserContext } from '@/context/userContext';
 
 import * as BsIcons from 'react-icons/bs';
 
-import firebase from "../../connection/db";
+import firebase from "../../db/db";
 
 import { Box, Button, Flex, Heading, Text, Input, CircularProgress } from "@chakra-ui/react";
 import Link from "next/link";

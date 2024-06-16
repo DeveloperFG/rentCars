@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react'
 
-import firebase from "../../connection/db";
+import firebase from "../../db/db";
 
 import { UserContext } from '@/context/userContext';
 

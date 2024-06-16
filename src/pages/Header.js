@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 import { Button, Box, Heading, Menu, MenuButton, MenuList, MenuItem, Text, Toast } from '@chakra-ui/react'
 
-import firebase from "../../connection/db";
+import firebase from "../../db/db";
 
 import ModalReserva from '@/components/modalReserva';
 

@@ -4,7 +4,7 @@ import { Box, Button, Input, Flex, Heading, Text, Stack, InputGroup, InputLeftEl
 
 import { UserContext } from '@/context/userContext';
 
-import firebase from "../../connection/db";
+import firebase from "../../db/db";
 
 import Link from "next/link";
 import Image from "next/image"

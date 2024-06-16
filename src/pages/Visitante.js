@@ -4,7 +4,7 @@ import { UserContext } from '@/context/userContext';
 
 import { Box, Button, Input, Heading, Text, InputGroup, InputRightElement, CircularProgress, Textarea, useTab } from "@chakra-ui/react";
 
-import firebase, { storage } from "../../connection/db";
+import firebase, { storage } from "../../db/db";
 
 import Link from "next/link";
 import Image from "next/image"

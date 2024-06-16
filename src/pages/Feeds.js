@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 
-import firebase from '../../connection/db'
+import firebase from '../../db/db'
 
 import { Box, Button, Flex, Text, Heading } from "@chakra-ui/react";
 import { CircularProgress } from '@chakra-ui/react'

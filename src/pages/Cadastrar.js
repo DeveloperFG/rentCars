@@ -7,7 +7,7 @@ import * as RxIcons from 'react-icons/rx';
 
 import { toast } from 'react-toastify';
 
-import firebase, { storage } from "../../connection/db";
+import firebase, { storage } from "../../db/db";
 
 import Link from "next/link";
 

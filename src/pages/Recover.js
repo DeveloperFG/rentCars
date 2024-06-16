@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react'
 import { UserContext } from '@/context/userContext';
 
 
-import firebase from "../../connection/db";
+import firebase from "../../db/db";
 
 import { Box, Button, Flex, Heading, Text, Input, CircularProgress } from "@chakra-ui/react";
 import Link from "next/link";

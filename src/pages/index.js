@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react'
 
 import { UserContext } from '@/context/userContext';
 
-import firebase from '../../connection/db'
+import firebase from '../../db/db'
 
 import {
   Button, Box, Text, Card, CardBody, Stack, Heading, Divider, CardFooter, ButtonGroup, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton
